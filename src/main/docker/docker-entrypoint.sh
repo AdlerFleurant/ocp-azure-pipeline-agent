@@ -6,5 +6,5 @@ if [ -z "$SERVER_URL" -a -z "$ACCESS_TOKEN" -a -z "$AGENT_POOL" -a -z "$AGENT_NA
         exit 1
 fi
 
-./config.sh --unattended --url $SERVER_URL --auth pat --token $ACCESS_TOKEN --pool $AGENT_POOL --agent $ACCESS_TOKEN --acceptTeeEula
+./config.sh --unattended --url $SERVER_URL --auth pat --token $ACCESS_TOKEN --pool $AGENT_POOL --agent $ACCESS_NAME --acceptTeeEula
 ./run.sh
