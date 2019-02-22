@@ -12,7 +12,7 @@ In order to start this image, you **MUST** specify all the environment variables
 
 #### SERVER_URL
 
-The Server URL of your Organization either on Azure DevOps (https://dev.azure.com/*{your-organization}*) or TFS 2017 and 
+The Server URL of your Organization either on Azure DevOps (https://dev.azure.com/${your-organization}) or TFS 2017 and 
 newer: (https://*{your_server}*/tfs).
 
 #### ACCESS_TOKEN
@@ -23,6 +23,6 @@ The personal access token created using this reference: https://docs.microsoft.c
 
 The name of the agent pool where this agent will reside.
 
-#### ACCESS_NAME
+#### AGENT_NAME
 
 The name of the agent that will be created. If this agent already exist, it might fail.
