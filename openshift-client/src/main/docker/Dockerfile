@@ -1,4 +1,4 @@
-FROM registry.redhat.io/openshift3/ose-cli:v3.11.88.2
+FROM registry.redhat.io/openshift3/ose-cli:v3.11.88-2
 
 ARG AZURE_DEVOPS_AGENT_VERSION=2.147.1
 
